@@ -1,0 +1,5 @@
+class AddIndexToPizzaUserId < ActiveRecord::Migration
+  def change
+       add_index :pizza, :user_id,
+  end
+end
